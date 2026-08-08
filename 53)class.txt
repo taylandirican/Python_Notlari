@@ -1,0 +1,31 @@
+list,tuple,set...=> class
+olu�turdu�umuz lst,tpl,a,b,erkekler =>object(instance) bunlar bir kopya
+lst1 =[1,2]
+lst2=[4,6]
+type'ları=> class 'list'
+
+
+class�n �zerinden method tan�mlan�r
+classlara ve objelere �zellikler atan�r(�zelliklere methodlarla ula��l�r)
+
+
+class Person:   (sadece bunu yazarsak hata al�r�z fakat pass yazarsak hata almay�z)
+	#attributes
+	#methods
+
+p1=Person() dersek Person class�ndan object olu�turmu� oluruz
+
+
+print(p1) => adres verir ve Person class�na ait oldu�unu s�yler
+print(p2)
+adresleri farkl�d�r ikiside persond�r
+
+typelar�n� al�rsak __main__.person yazar
+print(p1==p2) => False
+
+ATTR�BUTES
+Nesnelerin �zelliklerini tan�mlar
+1)Class attributes				2)Object attributes
+					constructor i�inde tan�mlan�r,
+					constructor nesnenin �zelliklerini (parametrelerini)
+					belirtmede kullan�l�r.ismi __init__()  dir
